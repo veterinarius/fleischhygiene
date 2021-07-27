@@ -2,8 +2,6 @@ import 'package:fleischhygiene/components/sidebar_row.dart';
 import 'package:fleischhygiene/model/sidebar.dart';
 import 'package:flutter/material.dart';
 
-import '../constants.dart';
-
 class SidebarScreen extends StatelessWidget {
   const SidebarScreen({Key? key}) : super(key: key);
 
