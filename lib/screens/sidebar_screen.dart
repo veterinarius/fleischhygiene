@@ -1,6 +1,12 @@
 import 'package:fleischhygiene/components/sidebar_row.dart';
 import 'package:fleischhygiene/model/sidebar.dart';
+import 'package:fleischhygiene/screens/impressum_screen.dart';
+import 'package:fleischhygiene/screens/jobs_screen.dart';
+import 'package:fleischhygiene/screens/news_screen.dart';
+import 'package:fleischhygiene/screens/quiz_screen.dart';
 import 'package:flutter/material.dart';
+
+import 'home_screen.dart';
 
 class SidebarScreen extends StatelessWidget {
   const SidebarScreen({Key? key}) : super(key: key);
@@ -28,32 +34,86 @@ class SidebarScreen extends StatelessWidget {
         horizontal: 20.0,
       ),
       child: SafeArea(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+        child: ListView(
+          //crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const CircleAvatar(
-              backgroundImage: AssetImage('asset/images/VeterinaerLogo.png'),
-              radius: 21.0,
+            Row(
+              children: const [
+                CircleAvatar(
+                  backgroundImage: AssetImage('asset/icons/SuFuIcon.png'),
+                  radius: 21.0,
+                ),
+              ],
             ),
             SizedBox(height: MediaQuery.of(context).size.height * 0.08),
-            SidebarRow(
-              item: sidebarItem[0],
+            GestureDetector(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => HomeScreen(),
+                  ),
+                );
+              },
+              child: SidebarRow(
+                item: sidebarItem[0],
+              ),
             ),
             const SizedBox(height: 32.0),
-            SidebarRow(
-              item: sidebarItem[1],
+            GestureDetector(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => News(),
+                  ),
+                );
+              },
+              child: SidebarRow(
+                item: sidebarItem[1],
+              ),
             ),
             const SizedBox(height: 32.0),
-            SidebarRow(
-              item: sidebarItem[2],
+            GestureDetector(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => Jobs(),
+                  ),
+                );
+              },
+              child: SidebarRow(
+                item: sidebarItem[2],
+              ),
             ),
             const SizedBox(height: 32.0),
-            SidebarRow(
-              item: sidebarItem[3],
+            GestureDetector(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => Quiz(),
+                  ),
+                );
+              },
+              child: SidebarRow(
+                item: sidebarItem[3],
+              ),
             ),
             const SizedBox(height: 32.0),
-            SidebarRow(
-              item: sidebarItem[4],
+            GestureDetector(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => Impressum(),
+                  ),
+                );
+              },
+              child: SidebarRow(
+                item: sidebarItem[4],
+              ),
             ),
           ],
         ),

@@ -7,7 +7,7 @@ class SidebarButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return RawMaterialButton(
       onPressed: () {
-        print("Button pressed");
+        Scaffold.of(context).openDrawer();
       },
       materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
       highlightColor: Colors.transparent,
@@ -31,7 +31,10 @@ class SidebarButton extends StatelessWidget {
           'asset/icons/icon-sidebar.png',
           color: kPrimaryLabelColor,
         ),
-        padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 14.0),
+        padding: const EdgeInsets.symmetric(
+          horizontal: 12.0,
+          vertical: 14.0,
+        ),
       ),
     );
   }

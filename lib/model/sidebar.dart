@@ -1,3 +1,5 @@
+import 'dart:io';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class SidebarItem {
@@ -20,7 +22,10 @@ var sidebarItem = [
         Color(0xFF0076FF),
       ],
     ),
-    icon: const Icon(Icons.home, color: Colors.white),
+    icon: Icon(
+      Platform.isAndroid ? Icons.home : CupertinoIcons.home,
+      color: Colors.white,
+    ),
   ),
   SidebarItem(
     title: "Meldungen",
@@ -32,7 +37,11 @@ var sidebarItem = [
         Color(0xFFC23D61),
       ],
     ),
-    icon: const Icon(Icons.menu_book_rounded, color: Colors.white),
+    icon: Icon(
+        Platform.isAndroid
+            ? Icons.menu_book_rounded
+            : CupertinoIcons.book_circle,
+        color: Colors.white),
   ),
   SidebarItem(
     title: "Job-Börse",
@@ -44,7 +53,9 @@ var sidebarItem = [
         Color(0xFFEA880F),
       ],
     ),
-    icon: const Icon(Icons.group_rounded, color: Colors.white),
+    icon: Icon(
+        Platform.isAndroid ? Icons.group_rounded : CupertinoIcons.person_2,
+        color: Colors.white),
   ),
   SidebarItem(
     title: "Prüfung",
@@ -56,7 +67,11 @@ var sidebarItem = [
         Color(0xFF202A78),
       ],
     ),
-    icon: const Icon(Icons.help_rounded, color: Colors.white),
+    icon: Icon(
+        Platform.isAndroid
+            ? Icons.help_rounded
+            : CupertinoIcons.question_circle,
+        color: Colors.white),
   ),
   SidebarItem(
     title: "Impressum",
@@ -68,6 +83,8 @@ var sidebarItem = [
         Color(0xFF0076FF),
       ],
     ),
-    icon: const Icon(Icons.email_rounded, color: Colors.white),
+    icon: Icon(
+        Platform.isAndroid ? Icons.email_rounded : CupertinoIcons.mail_solid,
+        color: Colors.white),
   ),
 ];

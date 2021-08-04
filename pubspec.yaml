@@ -27,13 +27,14 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  flutter_slider_drawer: ^2.0.0
   flutter:
     sdk: flutter
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
+  cupertino_icons: ^1.0.3
 
 dev_dependencies:
   flutter_test:
@@ -60,8 +61,49 @@ flutter:
     - asset/badges/
     - asset/certificates/
     - asset/icons/
+    - asset/icons/SuFuIcon.png
     - asset/illustrations/
     - asset/images/
-    - asset/images/VeterinaerLogo.png
+    - asset/images/AusweidenFrame.jpg
+    - asset/images/BetaeubenFrame.jpg
+    - asset/images/BeurteilungFrame.jpg
+    - asset/images/BruehenFrame.jpg
+    - asset/images/BUHTFrame.jpg
+    - asset/images/cloud-in-blue-sky.jpg
+    - asset/images/EinhuferFrame.jpg
+    - asset/images/EntblutenFrame.jpg
+    - asset/images/EnthaeutenFrame.jpg
+    - asset/images/FUFrame.jpg
+    - asset/images/GefluegelFrame.jpg
+    - asset/images/GrundlagenFrame.jpg
+    - asset/images/HausschweineFrame.jpg
+    - asset/images/JRinderFrame.jpg
+    - asset/images/jSchafeFrame.jpg
+    - asset/images/lBefoerderungFrame.jpg
+    - asset/images/rd1.png
+    - asset/images/rd2.png
+    - asset/images/rd3.png
+    - asset/images/rd4.png
+    - asset/images/SpaltenFrame.jpg
+    - asset/images/sRinderFrame.jpg
+    - asset/images/sSchafeFrame.jpg
+    - asset/images/sun-behind-cloud.jpg
+    - asset/images/sun-clouds.jpg
+    - asset/images/sun-with-clouds.jpg
+    - asset/images/Teil1Frame.jpg
+    - asset/images/Teil2Frame.jpg
+    - asset/images/Teil 3_1Icon.jpg
+    - asset/images/TPFrame.jpg
+    - asset/images/TransportfaehigkeitFrame.jpg
+    - asset/images/TransportmittelFrame.jpg
+    - asset/images/TransportpraxisIcon.jpg
+    - asset/images/TrUSFrame.jpg
+    - asset/images/TSEFrame.jpg
+    - asset/images/Uebersicht1.png
+    - asset/images/UebersichtFrame.jpg
+    - asset/images/VorberichtFrame.jpg
+    - asset/images/WildFrame.jpg
+    - asset/images/ZeitabstaendeFrame.jpg
+    - asset/images/zusUSFrame.jpg
     - asset/logos/
 

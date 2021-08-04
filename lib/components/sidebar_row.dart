@@ -1,10 +1,9 @@
-import 'package:fleischhygiene/constants.dart';
 import 'package:fleischhygiene/model/sidebar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 
 class SidebarRow extends StatelessWidget {
-  SidebarRow({required this.item});
+  const SidebarRow({required this.item});
 
   final SidebarItem item;
 

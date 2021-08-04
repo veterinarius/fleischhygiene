@@ -2,7 +2,7 @@ import 'package:fleischhygiene/model/course.dart';
 import 'package:flutter/material.dart';
 
 class RecentCourseCard extends StatefulWidget {
-  RecentCourseCard({required this.course});
+  RecentCourseCard({Key? key, required this.course});
 
   Course course;
 

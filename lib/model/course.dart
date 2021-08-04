@@ -6,12 +6,24 @@ class Course {
     required this.courseSubtitle,
     required this.background,
     required this.illustration,
+    required this.imageA,
+    required this.imageB,
+    required this.imageC,
+    required this.imageD,
+    required this.imageE,
+    required this.imageF,
   });
 
   String courseTitle;
   String courseSubtitle;
   LinearGradient background;
   String illustration;
+  String imageA;
+  String imageB;
+  String imageC;
+  String imageD;
+  String imageE;
+  String imageF;
 }
 
 // Recent Courses
@@ -29,6 +41,12 @@ var recentCourses = [
       ],
     ),
     illustration: 'illustration-01.png',
+    imageA: 'asset/images/Uebersicht1_1Frame.jpg',
+    imageB: '',
+    imageC: 'asset/images/Uebersicht1_2Frame.jpg',
+    imageD: '',
+    imageE: '',
+    imageF: '',
   ),
   Course(
     courseTitle: "Schlachttier-\nund Fleischunter-\nsuchung",
@@ -43,9 +61,15 @@ var recentCourses = [
       ],
     ),
     illustration: 'illustration-03.png',
+    imageA: 'asset/images/UebersichtFrame.jpg',
+    imageB: 'asset/images/VorberichtFrame.jpg',
+    imageC: 'asset/images/FUFrame.jpg',
+    imageD: 'asset/images/zusUSFrame.jpg',
+    imageE: '',
+    imageF: '',
   ),
   Course(
-    courseTitle: "Fleischuntesuchung\nRind",
+    courseTitle: "Fleischuntersuchung\nRind",
     courseSubtitle: "- allgemeiner Untersuchungsgang",
     background: const LinearGradient(
       begin: Alignment.topLeft,
@@ -56,6 +80,12 @@ var recentCourses = [
       ],
     ),
     illustration: 'illustration-03.png',
+    imageA: 'asset/images/Teil1Frame.jpg',
+    imageB: 'asset/images/Teil2Frame.jpg',
+    imageC: 'asset/images/Teil3Frame.jpg',
+    imageD: '',
+    imageE: '',
+    imageF: '',
   ),
   Course(
     courseTitle: "Fleischuntersuchung",
@@ -70,6 +100,12 @@ var recentCourses = [
       ],
     ),
     illustration: 'illustration-04.png',
+    imageA: 'asset/images/JRinderFrame.jpg',
+    imageB: 'asset/images/sRinderFrame.jpg',
+    imageC: 'asset/images/jSchafeFrame.jpg',
+    imageD: 'asset/images/sSchafeFrame.jpg',
+    imageE: 'asset/images/EinhuferFrame.jpg',
+    imageF: 'asset/images/HausschweineFrame.jpg',
   ),
   Course(
     courseTitle: "Weitere\nUntersuchungen",
@@ -84,6 +120,12 @@ var recentCourses = [
       ],
     ),
     illustration: 'illustration-05.png',
+    imageA: 'asset/images/GefluegelFrame.jpg',
+    imageB: 'asset/images/WildFrame.jpg',
+    imageC: 'asset/images/TrUSFrame.jpg',
+    imageD: 'asset/images/TSEFrame.jpg',
+    imageE: 'asset/images/BUHTFrame.jpg',
+    imageF: 'asset/images/BeurteilungFrame.jpg',
   ),
   Course(
     courseTitle: "Schlachtvieh-\ntransport",
@@ -97,7 +139,13 @@ var recentCourses = [
         Color(0xFFfebf00),
       ],
     ),
-    illustration: 'illustration-05.png',
+    illustration: 'illustration-06.png',
+    imageA: 'asset/images/GrundlagenFrame.jpg',
+    imageB: 'asset/images/TransportfaehigkeitFrame.jpg',
+    imageC: 'asset/images/TransportmittelFrame.jpg',
+    imageD: 'asset/images/TransportpraxisIcon.jpg',
+    imageE: 'asset/images/ZeitabstaendeFrame.jpg',
+    imageF: 'asset/images/lBefoerderungFrame.jpg',
   ),
   Course(
     courseTitle: "Schlachtung",
@@ -111,7 +159,13 @@ var recentCourses = [
         Color(0xFF99c62e),
       ],
     ),
-    illustration: 'illustration-05.png',
+    illustration: 'illustration-07.png',
+    imageA: 'asset/images/BetaeubenFrame.jpg',
+    imageB: 'asset/images/EntblutenFrame.jpg',
+    imageC: 'asset/images/EnthaeutenFrame.jpg',
+    imageD: 'asset/images/BruehenFrame.jpg',
+    imageE: 'asset/images/AusweidenFrame.jpg',
+    imageF: 'asset/images/SpaltenFrame.jpg',
   ),
 ];
 
@@ -129,6 +183,12 @@ var exploreCourses = [
       ],
     ),
     illustration: 'illustration-09.png',
+    imageA: '',
+    imageB: '',
+    imageC: '',
+    imageD: '',
+    imageE: '',
+    imageF: '',
   ),
   Course(
     courseTitle: "Build an app with SwiftUI",
@@ -142,6 +202,12 @@ var exploreCourses = [
       ],
     ),
     illustration: 'illustration-12.png',
+    imageA: '',
+    imageB: '',
+    imageC: '',
+    imageD: '',
+    imageE: '',
+    imageF: '',
   ),
   Course(
     courseTitle: "Build an app with SwiftUI",
@@ -155,134 +221,11 @@ var exploreCourses = [
       ],
     ),
     illustration: 'illustration-13.png',
-  ),
-];
-
-// Continue Watching Courses
-var continueWatchingCourses = [
-  Course(
-    courseTitle: "React for Designers",
-    courseSubtitle: "SVG Animations",
-    background: const LinearGradient(
-      begin: Alignment.topLeft,
-      end: Alignment.bottomRight,
-      colors: [
-        Color(0xFF4E62CC),
-        Color(0xFF202A78),
-      ],
-    ),
-    illustration: 'illustration-06.png',
-  ),
-  Course(
-    courseTitle: "Animating in Principle",
-    courseSubtitle: "Multiple Scrolling",
-    background: const LinearGradient(
-      begin: Alignment.topLeft,
-      end: Alignment.bottomRight,
-      colors: [
-        Color(0xFFFA7D75),
-        Color(0xFFC23D61),
-      ],
-    ),
-    illustration: 'illustration-07.png',
-  ),
-];
-
-// Course Sections
-var courseSections = [
-  Course(
-    courseTitle: "Build an app with SwiftUI",
-    courseSubtitle: "01 Section",
-    background: const LinearGradient(
-      begin: Alignment.topLeft,
-      end: Alignment.bottomRight,
-      colors: [
-        Color(0xFF00AEFF),
-        Color(0xFF0076FF),
-      ],
-    ),
-    illustration: 'illustration-01.png',
-  ),
-  Course(
-    courseTitle: "Flutter for Designers",
-    courseSubtitle: "02 Section",
-    background: const LinearGradient(
-      begin: Alignment.topLeft,
-      end: Alignment.bottomRight,
-      colors: [
-        Color(0xFFE477AE),
-        Color(0xFFC54284),
-      ],
-    ),
-    illustration: 'illustration-08.png',
-  ),
-  Course(
-    courseTitle: "ProtoPie Prototyping",
-    courseSubtitle: "03 Section",
-    background: const LinearGradient(
-      begin: Alignment.topLeft,
-      end: Alignment.bottomRight,
-      colors: [
-        Color(0xFFEA7E58),
-        Color(0xFFCE4E27),
-      ],
-    ),
-    illustration: 'illustration-09.png',
-  ),
-  Course(
-    courseTitle: "UI Design Course",
-    courseSubtitle: "04 Section",
-    background: const LinearGradient(
-      begin: Alignment.topLeft,
-      end: Alignment.bottomRight,
-      colors: [
-        Color(0xFF72CFD4),
-        Color(0xFF42A0C2),
-      ],
-    ),
-    illustration: 'illustration-10.png',
-  ),
-  Course(
-    courseTitle: "React for Designers",
-    courseSubtitle: "05 Section",
-    background: const LinearGradient(
-      begin: Alignment.topLeft,
-      end: Alignment.bottomRight,
-      colors: [
-        Color(0xFFFF2E56),
-        Color(0xFFCB012B),
-      ],
-    ),
-    illustration: 'illustration-11.png',
-  ),
-];
-
-// Completed Courses
-var completedCourses = [
-  Course(
-    courseTitle: "Build an ARKit 2 App",
-    courseSubtitle: "Certified",
-    background: const LinearGradient(
-      begin: Alignment.topLeft,
-      end: Alignment.bottomRight,
-      colors: [
-        Color(0xFFFF6B94),
-        Color(0xFF6B2E98),
-      ],
-    ),
-    illustration: 'illustration-12.png',
-  ),
-  Course(
-    courseTitle: "Swift Advanced",
-    courseSubtitle: "Yet to be Certified",
-    background: const LinearGradient(
-      begin: Alignment.topLeft,
-      end: Alignment.bottomRight,
-      colors: [
-        Color(0xFFDEC8FA),
-        Color(0xFF4A1B6D),
-      ],
-    ),
-    illustration: 'illustration-13.png',
+    imageA: '',
+    imageB: '',
+    imageC: '',
+    imageD: '',
+    imageE: '',
+    imageF: '',
   ),
 ];
