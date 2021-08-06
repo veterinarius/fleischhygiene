@@ -106,8 +106,60 @@ class _CourseScreenState extends State<CourseScreen> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
-                    Image.asset(widget.course.imageA, fit: BoxFit.scaleDown),
-                    Image.asset(widget.course.imageB, fit: BoxFit.scaleDown),
+                    GestureDetector(
+                      child:
+                          Image.asset(widget.course.imageA, fit: BoxFit.cover),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => SingleChildScrollView(
+                              child: Container(
+                                decoration: const BoxDecoration(
+                                  color: Colors.white,
+                                ),
+                                child: GestureDetector(
+                                  onTap: () {
+                                    Navigator.pop(context);
+                                  },
+                                  child: Image.asset(
+                                    widget.course.imageAA,
+                                    fit: BoxFit.scaleDown,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        );
+                      },
+                    ),
+                    GestureDetector(
+                      child:
+                          Image.asset(widget.course.imageB, fit: BoxFit.cover),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => SingleChildScrollView(
+                              child: Container(
+                                decoration: const BoxDecoration(
+                                  color: Colors.white,
+                                ),
+                                child: GestureDetector(
+                                  onTap: () {
+                                    Navigator.pop(context);
+                                  },
+                                  child: Image.asset(
+                                    widget.course.imageBB,
+                                    fit: BoxFit.scaleDown,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        );
+                      },
+                    ),
                   ],
                 ),
               ),
@@ -117,7 +169,10 @@ class _CourseScreenState extends State<CourseScreen> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
-                    Image.asset(widget.course.imageC, fit: BoxFit.scaleDown),
+                    GestureDetector(
+                      child: Image.asset(widget.course.imageC,
+                          fit: BoxFit.scaleDown),
+                    ),
                     Image.asset(widget.course.imageD, fit: BoxFit.scaleDown),
                   ],
                 ),
@@ -133,7 +188,22 @@ class _CourseScreenState extends State<CourseScreen> {
                   ],
                 ),
               ),
-              SizedBox(height: 20.0),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 28.0),
+                child: Column(
+                  children: [
+                    Align(
+                      alignment: Alignment.topLeft,
+                      child: Text("Inhalt Kapitel", style: kTitle2Style),
+                    ),
+                    const SizedBox(height: 24.0),
+                    Align(
+                        alignment: Alignment.topLeft,
+                        child: Text(widget.course.courseSubtitle,
+                            style: kSubtitleStyle)),
+                  ],
+                ),
+              )
             ],
           ),
         ),

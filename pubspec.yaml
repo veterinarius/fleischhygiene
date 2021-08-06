@@ -96,14 +96,17 @@ flutter:
     - asset/images/TPFrame.jpg
     - asset/images/TransportfaehigkeitFrame.jpg
     - asset/images/TransportmittelFrame.jpg
-    - asset/images/TransportpraxisIcon.jpg
     - asset/images/TrUSFrame.jpg
     - asset/images/TSEFrame.jpg
     - asset/images/Uebersicht1.png
+    - asset/images/Uebersicht2.png
     - asset/images/UebersichtFrame.jpg
     - asset/images/VorberichtFrame.jpg
     - asset/images/WildFrame.jpg
     - asset/images/ZeitabstaendeFrame.jpg
     - asset/images/zusUSFrame.jpg
+    - asset/images/Uebersicht1_1Frame.jpg
+    - asset/images/Uebersicht1_2Frame.jpg
+    - asset/images/Point.jpg
     - asset/logos/
 
