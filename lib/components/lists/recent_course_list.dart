@@ -1,5 +1,4 @@
 import 'package:fleischhygiene/components/cards/recent_course_card.dart';
-import 'package:fleischhygiene/main.dart';
 import 'package:fleischhygiene/model/course.dart';
 import 'package:fleischhygiene/screens/course_screen.dart';
 import 'package:flutter/material.dart';

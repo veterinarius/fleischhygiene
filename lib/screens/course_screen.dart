@@ -170,10 +170,59 @@ class _CourseScreenState extends State<CourseScreen> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     GestureDetector(
-                      child: Image.asset(widget.course.imageC,
-                          fit: BoxFit.scaleDown),
+                      child:
+                          Image.asset(widget.course.imageC, fit: BoxFit.cover),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => SingleChildScrollView(
+                              child: Container(
+                                decoration: const BoxDecoration(
+                                  color: Colors.white,
+                                ),
+                                child: GestureDetector(
+                                  onTap: () {
+                                    Navigator.pop(context);
+                                  },
+                                  child: Image.asset(
+                                    widget.course.imageCC,
+                                    fit: BoxFit.scaleDown,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        );
+                      },
                     ),
-                    Image.asset(widget.course.imageD, fit: BoxFit.scaleDown),
+                    GestureDetector(
+                      child:
+                          Image.asset(widget.course.imageD, fit: BoxFit.cover),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => SingleChildScrollView(
+                              child: Container(
+                                decoration: const BoxDecoration(
+                                  color: Colors.white,
+                                ),
+                                child: GestureDetector(
+                                  onTap: () {
+                                    Navigator.pop(context);
+                                  },
+                                  child: Image.asset(
+                                    widget.course.imageDD,
+                                    fit: BoxFit.scaleDown,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        );
+                      },
+                    ),
                   ],
                 ),
               ),
@@ -183,11 +232,64 @@ class _CourseScreenState extends State<CourseScreen> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
-                    Image.asset(widget.course.imageE, fit: BoxFit.scaleDown),
-                    Image.asset(widget.course.imageF, fit: BoxFit.scaleDown),
+                    GestureDetector(
+                      child:
+                          Image.asset(widget.course.imageE, fit: BoxFit.cover),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => SingleChildScrollView(
+                              child: Container(
+                                decoration: const BoxDecoration(
+                                  color: Colors.white,
+                                ),
+                                child: GestureDetector(
+                                  onTap: () {
+                                    Navigator.pop(context);
+                                  },
+                                  child: Image.asset(
+                                    widget.course.imageEE,
+                                    fit: BoxFit.scaleDown,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        );
+                      },
+                    ),
+                    GestureDetector(
+                      child:
+                          Image.asset(widget.course.imageF, fit: BoxFit.cover),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => SingleChildScrollView(
+                              child: Container(
+                                decoration: const BoxDecoration(
+                                  color: Colors.white,
+                                ),
+                                child: GestureDetector(
+                                  onTap: () {
+                                    Navigator.pop(context);
+                                  },
+                                  child: Image.asset(
+                                    widget.course.imageFF,
+                                    fit: BoxFit.scaleDown,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        );
+                      },
+                    ),
                   ],
                 ),
               ),
+              SizedBox(height: 28.0),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 28.0),
                 child: Column(

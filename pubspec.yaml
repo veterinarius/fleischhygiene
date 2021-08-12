@@ -30,6 +30,7 @@ dependencies:
   flutter_slider_drawer: ^2.0.0
   flutter:
     sdk: flutter
+  http: ^0.13.3
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -64,6 +65,37 @@ flutter:
     - asset/icons/SuFuIcon.png
     - asset/illustrations/
     - asset/images/
+    - asset/images/Gefluegel.jpg
+    - asset/images/WildTXT.png
+    - asset/images/TrUSTXT.png
+    - asset/images/BUTXT.png
+    - asset/images/BeurteilungTXT.png
+    - asset/images/GrundlagenTXT.jpg
+    - asset/images/Vorbericht+SU.png
+    - asset/images/SUFU1.jpg
+    - asset/images/Fleischuntersuchung.jpg
+    - asset/images/zusaetzliche US.jpg
+    - asset/images/Fleischuntersuchung Rind 1.jpg
+    - asset/images/Fleischuntersuchung Rind 2.jpg
+    - asset/images/Fleischuntersuchung Rind 3.jpg
+    - asset/images/FUjungeRinderTXT.jpg
+    - asset/images/FUsonstigeRinderTXT.jpg
+    - asset/images/FUjungeSchafeTXT.jpg
+    - asset/images/FUsonstigeSchafeTXT.jpg
+    - asset/images/FUEinhuferTXT.jpg
+    - asset/images/GrundlagenTXT.jpg
+    - asset/images/TransportfaehigkeitTXT.jpg
+    - asset/images/TransportmittelTXT.jpg
+    - asset/images/TransportpraxisTXT.jpg
+    - asset/images/ZeitabstaendeTXT.jpg
+    - asset/images/LangeBefoerderungTXT.jpg
+    - asset/images/FUHausschweineTXT.jpg
+    - asset/images/BetaeubenTXT.jpg
+    - asset/images/Entbluten.jpg
+    - asset/images/Enthaeuten.jpg
+    - asset/images/BruehenTXT.jpg
+    - asset/images/AusweidenTXT.jpg
+    - asset/images/SpaltenTXT.jpg
     - asset/images/AusweidenFrame.jpg
     - asset/images/BetaeubenFrame.jpg
     - asset/images/BeurteilungFrame.jpg
