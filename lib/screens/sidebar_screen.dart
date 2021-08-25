@@ -79,7 +79,7 @@ class SidebarScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => Jobs(),
+                    builder: (context) => const Jobs(),
                   ),
                 );
               },

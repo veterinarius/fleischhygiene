@@ -31,6 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^0.13.3
+  step_progress_indicator: ^1.0.1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -140,5 +141,6 @@ flutter:
     - asset/images/Uebersicht1_1Frame.jpg
     - asset/images/Uebersicht1_2Frame.jpg
     - asset/images/Point.jpg
+    - asset/images/trophy.png
     - asset/logos/
 
