@@ -1,6 +1,6 @@
 import 'package:fleischhygiene/model/quiz_model.dart';
 
-loadQuestions(int questionIndex) {
+loadQuestionsC(int questionIndex) {
   List<QuizModel> questionList = [
     QuizModel(
         "Was ist mit dem Euter bei sonstigen Rindern bei der Fleischuntersuchung?",

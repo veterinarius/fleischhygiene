@@ -7,6 +7,8 @@ import 'package:flutter/material.dart';
 import '../constants.dart';
 
 class HomeScreen extends StatefulWidget {
+  const HomeScreen({Key? key}) : super(key: key);
+
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 }
@@ -25,7 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: SingleChildScrollView(
                 child: Column(
                   children: [
-                    HomeScreenNavBar(),
+                    const HomeScreenNavBar(),
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 20.0),
                       child: Column(
@@ -59,7 +61,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         ],
                       ),
                     ),
-                    ExploreCourseList(),
+                    const ExploreCourseList(),
                   ],
                 ),
               ),

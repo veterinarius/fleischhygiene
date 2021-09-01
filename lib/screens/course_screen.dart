@@ -289,7 +289,7 @@ class _CourseScreenState extends State<CourseScreen> {
                   ],
                 ),
               ),
-              SizedBox(height: 28.0),
+              const SizedBox(height: 28.0),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 28.0),
                 child: Column(

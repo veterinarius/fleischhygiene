@@ -1,6 +1,6 @@
 import 'package:fleischhygiene/model/quiz_model.dart';
 
-loadQuestions(int questionIndex) {
+loadQuestionsD(int questionIndex) {
   List<QuizModel> questionList = [
     QuizModel("Die Phasen der Entblutung sind:",
         "Sturzentblutung, Nachentblutung, Nachtropfentblutung", [

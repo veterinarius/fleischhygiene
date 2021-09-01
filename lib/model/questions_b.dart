@@ -1,6 +1,6 @@
 import 'package:fleischhygiene/model/quiz_model.dart';
 
-loadQuestions(int questionIndex) {
+loadQuestionsB(int questionIndex) {
   List<QuizModel> questionList = [
     QuizModel(
         "Zur ordnungsgemäßen Kennzeichnung eines Schlachttieres gehören u.a.:",

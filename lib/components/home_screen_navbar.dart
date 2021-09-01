@@ -2,6 +2,8 @@ import 'package:fleischhygiene/components/sidebar_button.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreenNavBar extends StatelessWidget {
+  const HomeScreenNavBar({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Padding(

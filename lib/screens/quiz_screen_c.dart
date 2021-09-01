@@ -1,20 +1,21 @@
-import 'package:fleischhygiene/constants.dart';
 import 'package:fleischhygiene/model/question_controller.dart';
-import 'package:fleischhygiene/model/questions_a.dart';
+import 'package:fleischhygiene/model/questions_c.dart';
 import 'package:fleischhygiene/model/quiz_model.dart';
 import 'package:fleischhygiene/model/widgets.dart';
-import 'package:fleischhygiene/screens/end_screen.dart';
+import 'package:fleischhygiene/screens/quiz_end_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:step_progress_indicator/step_progress_indicator.dart';
 
-class Quiz extends StatefulWidget {
-  const Quiz({Key? key}) : super(key: key);
+import '../constants.dart';
+
+class QuizC extends StatefulWidget {
+  const QuizC({Key? key}) : super(key: key);
 
   @override
-  _QuizState createState() => _QuizState();
+  _QuizCState createState() => _QuizCState();
 }
 
-class _QuizState extends State<Quiz> {
+class _QuizCState extends State<QuizC> {
   int currentLevel = 1;
   int userPoints = 0;
   late QuizModel currentQuestion;
@@ -31,7 +32,7 @@ class _QuizState extends State<Quiz> {
 
   loadNewQuestion() {
     setState(() {
-      currentQuestion = loadQuestions(questionIndex[currentLevel - 1]);
+      currentQuestion = loadQuestionsC(questionIndex[currentLevel - 1]);
       answers = getRandomQuestionList(
           currentQuestion.wrongAnswers, currentQuestion.correctAnswer);
       answerValidation = [null, null, null];
@@ -68,7 +69,7 @@ class _QuizState extends State<Quiz> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Prüfung"),
+        title: const Text("Prüfung Runde 3"),
         centerTitle: true,
         flexibleSpace: Container(
           decoration: const BoxDecoration(
@@ -76,8 +77,8 @@ class _QuizState extends State<Quiz> {
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
               colors: [
-                Color(0xFF4E62CC),
-                Color(0xFF202A78),
+                Color(0xFF06BF5E),
+                Color(0xFFFCEE21),
               ],
             ),
           ),
@@ -94,7 +95,7 @@ class _QuizState extends State<Quiz> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const Spacer(),
+                  const SizedBox(height: 30.0),
                   Text(
                     currentQuestion.questions,
                     style: const TextStyle(
@@ -120,9 +121,9 @@ class _QuizState extends State<Quiz> {
                   const Spacer(),
                   Text(
                     "Punkte: " + userPoints.toString(),
-                    style: TextStyle(color: Colors.grey),
+                    style: const TextStyle(color: Colors.grey),
                   ),
-                  const Spacer(),
+                  const SizedBox(height: 50.0),
                   GestureDetector(
                     child: answerCard(answers[0], context,
                         answer: answerValidation[0]),

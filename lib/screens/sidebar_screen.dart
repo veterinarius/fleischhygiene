@@ -3,7 +3,8 @@ import 'package:fleischhygiene/model/sidebar.dart';
 import 'package:fleischhygiene/screens/impressum_screen.dart';
 import 'package:fleischhygiene/screens/jobs_screen.dart';
 import 'package:fleischhygiene/screens/news_screen.dart';
-import 'package:fleischhygiene/screens/quiz_screen.dart';
+import 'package:fleischhygiene/screens/quiz_screen_a.dart';
+import 'package:fleischhygiene/screens/quiz_start_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'home_screen.dart';
@@ -65,7 +66,7 @@ class SidebarScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => News(),
+                    builder: (context) => const News(),
                   ),
                 );
               },
@@ -93,7 +94,7 @@ class SidebarScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => Quiz(),
+                    builder: (context) => const StartScreen(),
                   ),
                 );
               },
@@ -107,7 +108,7 @@ class SidebarScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => Impressum(),
+                    builder: (context) => const Impressum(),
                   ),
                 );
               },

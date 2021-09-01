@@ -1,6 +1,6 @@
 import 'package:fleischhygiene/model/quiz_model.dart';
 
-loadQuestions(int questionIndex) {
+loadQuestionsA(int questionIndex) {
   List<QuizModel> questionList = [
     QuizModel(
         "Schlachtverbot besteht bei Tieren,",

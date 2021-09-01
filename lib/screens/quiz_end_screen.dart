@@ -1,4 +1,4 @@
-import 'package:fleischhygiene/screens/quiz_screen.dart';
+import 'package:fleischhygiene/screens/quiz_start_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../constants.dart';
@@ -26,6 +26,8 @@ class EndScreen extends StatelessWidget {
                 style: TextStyle(color: Colors.black),
               ),
               const Spacer(),
+              Image.asset("asset/images/trophy.png"),
+              const Spacer(),
               Text(
                 "Du hast " +
                     userPoints.toString() +
@@ -38,7 +40,9 @@ class EndScreen extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Quiz()),
+                    MaterialPageRoute(
+                      builder: (context) => const StartScreen(),
+                    ),
                   );
                 },
                 child: const Text(
