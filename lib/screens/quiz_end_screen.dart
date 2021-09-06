@@ -1,3 +1,4 @@
+import 'package:fleischhygiene/screens/home_screen.dart';
 import 'package:fleischhygiene/screens/quiz_start_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -41,7 +42,7 @@ class EndScreen extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const StartScreen(),
+                      builder: (context) => const HomeScreen(),
                     ),
                   );
                 },

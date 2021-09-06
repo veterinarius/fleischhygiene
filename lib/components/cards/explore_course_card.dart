@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import '../../constants.dart';
 
 class ExploreCourseCard extends StatelessWidget {
-  ExploreCourseCard({required this.course});
+  const ExploreCourseCard({required this.course});
 
   final Course course;
 

@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import '../constants.dart';
 
 class CourseScreen extends StatefulWidget {
-  const CourseScreen({required this.course});
+  const CourseScreen({Key? key, required this.course}) : super(key: key);
 
   final Course course;
 

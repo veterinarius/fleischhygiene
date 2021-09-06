@@ -3,7 +3,6 @@ import 'package:fleischhygiene/model/sidebar.dart';
 import 'package:fleischhygiene/screens/impressum_screen.dart';
 import 'package:fleischhygiene/screens/jobs_screen.dart';
 import 'package:fleischhygiene/screens/news_screen.dart';
-import 'package:fleischhygiene/screens/quiz_screen_a.dart';
 import 'package:fleischhygiene/screens/quiz_start_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -52,7 +51,7 @@ class SidebarScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => HomeScreen(),
+                    builder: (context) => const HomeScreen(),
                   ),
                 );
               },

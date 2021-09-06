@@ -5,7 +5,7 @@ loadQuestionsC(int questionIndex) {
     QuizModel(
         "Was ist mit dem Euter bei sonstigen Rindern bei der Fleischuntersuchung?",
         "Besichtigung gemäß VO (EU) 2019/627 Art. 19", [
-      "cBesichtigung gemäß VO (EU) 2019/627 Art. 19",
+      "Besichtigung gemäß VO (EU) 2019/627 Art. 19",
       "Keine Untersuchung notwendig, da genussuntauglich."
     ]),
     QuizModel(

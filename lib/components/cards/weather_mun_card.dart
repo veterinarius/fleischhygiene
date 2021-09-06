@@ -16,7 +16,7 @@ class WeatherMunCard extends StatelessWidget {
           onTap: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => WeatherMUN()),
+              MaterialPageRoute(builder: (context) => const WeatherMUN()),
             );
           },
           child: Container(

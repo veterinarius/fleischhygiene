@@ -17,7 +17,7 @@ class WeatherGieCard extends StatelessWidget {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => WeatherGIE(),
+                builder: (context) => const WeatherGIE(),
               ),
             );
           },

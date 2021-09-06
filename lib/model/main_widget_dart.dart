@@ -11,14 +11,16 @@ class MainWidget extends StatelessWidget {
   final int humidity;
   final double windSpeed;
 
-  MainWidget(
-      {required this.location,
+  const MainWidget(
+      {Key? key,
+      required this.location,
       required this.temp,
       required this.tempMin,
       required this.tempMax,
       required this.weather,
       required this.humidity,
-      required this.windSpeed});
+      required this.windSpeed})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
