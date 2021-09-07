@@ -122,9 +122,12 @@ class _CourseScreenState extends State<CourseScreen> {
                                   onTap: () {
                                     Navigator.pop(context);
                                   },
-                                  child: Image.asset(
-                                    widget.course.imageAA,
-                                    fit: BoxFit.scaleDown,
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(15.0),
+                                    child: Image.asset(
+                                      widget.course.imageAA,
+                                      fit: BoxFit.cover,
+                                    ),
                                   ),
                                 ),
                               ),
@@ -149,9 +152,12 @@ class _CourseScreenState extends State<CourseScreen> {
                                   onTap: () {
                                     Navigator.pop(context);
                                   },
-                                  child: Image.asset(
-                                    widget.course.imageBB,
-                                    fit: BoxFit.scaleDown,
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(15.0),
+                                    child: Image.asset(
+                                      widget.course.imageBB,
+                                      fit: BoxFit.cover,
+                                    ),
                                   ),
                                 ),
                               ),
@@ -185,9 +191,12 @@ class _CourseScreenState extends State<CourseScreen> {
                                   onTap: () {
                                     Navigator.pop(context);
                                   },
-                                  child: Image.asset(
-                                    widget.course.imageCC,
-                                    fit: BoxFit.scaleDown,
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(15.0),
+                                    child: Image.asset(
+                                      widget.course.imageCC,
+                                      fit: BoxFit.cover,
+                                    ),
                                   ),
                                 ),
                               ),
@@ -212,9 +221,12 @@ class _CourseScreenState extends State<CourseScreen> {
                                   onTap: () {
                                     Navigator.pop(context);
                                   },
-                                  child: Image.asset(
-                                    widget.course.imageDD,
-                                    fit: BoxFit.scaleDown,
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(15.0),
+                                    child: Image.asset(
+                                      widget.course.imageDD,
+                                      fit: BoxFit.cover,
+                                    ),
                                   ),
                                 ),
                               ),
@@ -248,9 +260,12 @@ class _CourseScreenState extends State<CourseScreen> {
                                   onTap: () {
                                     Navigator.pop(context);
                                   },
-                                  child: Image.asset(
-                                    widget.course.imageEE,
-                                    fit: BoxFit.scaleDown,
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(15.0),
+                                    child: Image.asset(
+                                      widget.course.imageEE,
+                                      fit: BoxFit.cover,
+                                    ),
                                   ),
                                 ),
                               ),
@@ -275,9 +290,12 @@ class _CourseScreenState extends State<CourseScreen> {
                                   onTap: () {
                                     Navigator.pop(context);
                                   },
-                                  child: Image.asset(
-                                    widget.course.imageFF,
-                                    fit: BoxFit.scaleDown,
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(15.0),
+                                    child: Image.asset(
+                                      widget.course.imageFF,
+                                      fit: BoxFit.cover,
+                                    ),
                                   ),
                                 ),
                               ),

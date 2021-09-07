@@ -42,12 +42,28 @@ class EndScreen extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
+                      builder: (context) => const StartScreen(),
+                    ),
+                  );
+                },
+                child: const Text(
+                  "Zu den Prüfungen",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(color: Colors.black),
+                ),
+              ),
+              const Spacer(),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
                       builder: (context) => const HomeScreen(),
                     ),
                   );
                 },
                 child: const Text(
-                  "Zur Startseite",
+                  "Home",
                   textAlign: TextAlign.center,
                   style: TextStyle(color: Colors.black),
                 ),

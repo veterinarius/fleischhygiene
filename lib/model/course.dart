@@ -86,7 +86,7 @@ var recentCourses = [
     imageC: 'asset/images/FUFrame.jpg',
     imageCC: 'asset/images/Fleischuntersuchung.jpg',
     imageD: 'asset/images/zusUSFrame.jpg',
-    imageDD: 'asset/images/Uebersicht2.png',
+    imageDD: 'asset/images/zusaetzliche US.jpg',
     imageE: 'asset/images/Point.jpg',
     imageEE: 'asset/images/zusaetzliche US.jpg',
     imageF: 'asset/images/Point.jpg',

@@ -33,7 +33,7 @@ class Impressum extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Text(
-                    "Diese App 'SuFu' wurde mit größter Sorgfalt, viel Liebe und unermäßlichem Fleiß erstellt.\nFür Inhalte ist der Herausgeber verantwortlich. Transparenz ist die Basis für Vertrauen und ein angenehmes Nutzererlebnis. Dafür stehen folgende Informationen.\n\nAutor und Herausgeber:\nDr.med.vet. Stephan Wegmann\nFTA für Fleischhygiene und Schlachthofwesen\nZusatzbezeichnung Qualitätsmanagement im Lebensmittelbereich\nVon-Martels Str. 10\n48683 Ahaus\nTel: +49 151 46523245\neMail: info@candmedvet.de\nDatenschutz: www.articyoulate.de/Datenschutz",
+                    "Diese App 'SuFu' wurde mit größter Sorgfalt, viel Liebe und unermäßlichem Fleiß erstellt.\nFür Inhalte ist der Herausgeber verantwortlich. Transparenz ist die Basis für Vertrauen und ein angenehmes Nutzererlebnis. Dafür stehen folgende Informationen.\n\nAutor und Herausgeber:\nDr.med.vet. Stephan Wegmann\nFTA für Fleischhygiene und Schlachthofwesen\nZusatzbezeichnung Qualitätsmanagement im Lebensmittelbereich\nVon-Martels Str. 10\n48683 Ahaus\nTel: +49 151 46523245\neMail: info@articyoulate.de\nDatenschutz: www.articyoulate.de/Datenschutz",
                     style: kBodyLabelStyle),
                 const SizedBox(height: 12.0),
                 Text(

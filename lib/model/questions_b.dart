@@ -35,7 +35,7 @@ loadQuestionsB(int questionIndex) {
       "Das Lebendgewicht minus Blutmenge."
     ]),
     QuizModel(
-        "Wozu benötigt man die Darmbeinlymphknoten (Lnn. ilicci mediales und laterales)?",
+        "Wozu benötigt man die Darmbeinlymphknoten (Lnn. ilici mediales und laterales)?",
         "Für die bakteriologische Untersuchung.", [
       "Für die Untersuchung nach dem NRKP.",
       "Für die Hemmstoffuntersuchung."

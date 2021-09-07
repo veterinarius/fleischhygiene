@@ -105,13 +105,6 @@ class _QuizDState extends State<QuizD> {
                     textAlign: TextAlign.center,
                   ),
                   const Spacer(),
-                  const Text(
-                    "Frage Nr.:",
-                    style: TextStyle(
-                        color: Colors.black,
-                        fontSize: 18.0,
-                        fontWeight: FontWeight.normal),
-                  ),
                   StepProgressIndicator(
                     totalSteps: 10,
                     currentStep: currentLevel,
