@@ -5,7 +5,7 @@ loadQuestionsC(int questionIndex) {
     QuizModel(
         "Was ist mit dem Euter bei sonstigen Rindern bei der Fleischuntersuchung?",
         "Besichtigung gemäß VO (EU) 2019/627 Art. 19", [
-      "Besichtigung gemäß VO (EU) 2019/627 Art. 19",
+      "Besichtigung gemäß VO (EU) 2019/627 Art. 23",
       "Keine Untersuchung notwendig, da genussuntauglich."
     ]),
     QuizModel(
@@ -47,12 +47,20 @@ loadQuestionsC(int questionIndex) {
       "Es muss nur besichtigt werden."
     ]),
     QuizModel(
+        "Wie lautet der Rechtsbezug nach Durchführungsverordnung (EU) 2019/627 für die Entscheidung bezüglich des Fleisches bei einer Leber nach Parasitenbefall?",
+        "Art. 45 Buchst. h",
+        ["Art. 45 Buchst. o", "Art. 29"]),
+    QuizModel(
         "Muss bei Hausschweinen das Herz angeschnitten werden?",
         "Bei Anzeichen für ein mögliches Risiko für die Gesundheit von Mensch od. Tier gemäß Art. 24.",
         [
           "Nur Besichtigung.",
           "Grundsätzlich immer nach VO (EU) 2019/627 Art. 19."
         ]),
+    QuizModel(
+        "Wie lautet der Rechtsbezug nach Durchführungsverordnung (EU) 2019/627 für die Entscheidung bezüglich des Fleisches bei einer Lungenentzündung?",
+        "Art. 45 Buchst. o",
+        ["Art. 45 Buchst. h", "Art. 42"]),
   ];
   return questionList[questionIndex];
 }

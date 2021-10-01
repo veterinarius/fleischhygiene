@@ -2,6 +2,7 @@ import 'package:fleischhygiene/components/cards/date_time_card.dart';
 import 'package:fleischhygiene/components/cards/weather_ber_card.dart';
 import 'package:fleischhygiene/components/cards/weather_gie_card.dart';
 import 'package:fleischhygiene/components/cards/weather_han_card.dart';
+import 'package:fleischhygiene/components/cards/weather_leip_card.dart';
 import 'package:fleischhygiene/components/cards/weather_mun_card.dart';
 import 'package:flutter/material.dart';
 
@@ -22,7 +23,8 @@ class ExploreCourseList extends StatelessWidget {
               WeatherHanCard(),
               WeatherBerCard(),
               WeatherMunCard(),
-              WeatherGieCard()
+              WeatherGieCard(),
+              WeatherLeipCard()
             ]
             //child: ExploreCourseCard(course: exploreCourses[index]),
             // );

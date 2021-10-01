@@ -1,4 +1,4 @@
-package com.example.fleischhygiene
+package com.articyoulate.fleischhygiene
 
 import io.flutter.embedding.android.FlutterActivity
 

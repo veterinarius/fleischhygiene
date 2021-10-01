@@ -43,7 +43,7 @@ class _JobsState extends State<Jobs> {
             default:
               if (snapshot.hasError) {
                 return const Center(
-                  child: Text("Fehler!"),
+                  child: Text("Fehler beim Laden!"),
                 );
               } else {
                 return buildJobs(jobs!);

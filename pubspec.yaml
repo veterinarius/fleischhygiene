@@ -66,7 +66,9 @@ flutter:
     - asset/images/
     - asset/images/Gefluegel.jpg
     - asset/images/WildTXT.png
+    - asset/images/WildTXT.jpg
     - asset/images/TrUSTXT.png
+    - asset/images/TrUSTXT.jpg
     - asset/images/BUTXT.png
     - asset/images/BeurteilungTXT.png
     - asset/images/GrundlagenTXT.jpg
@@ -83,7 +85,7 @@ flutter:
     - asset/images/FUsonstigeSchafeTXT.jpg
     - asset/images/FUEinhuferTXT.jpg
     - asset/images/GrundlagenTXT.jpg
-    - asset/images/TransportfaehigkeitTXT.jpg
+    - asset/images/TransportfaehigkeitTXT.png
     - asset/images/TransportmittelTXT.jpg
     - asset/images/TransportpraxisTXT.jpg
     - asset/images/ZeitabstaendeTXT.jpg

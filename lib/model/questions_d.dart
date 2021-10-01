@@ -7,6 +7,8 @@ loadQuestionsD(int questionIndex) {
       "Abstechen, starke Entblutung, sehr starke Entblutung",
       "Vorentblutung, Hauptentblutung, Nachentblutung"
     ]),
+    QuizModel("Bei welchen Temperaturen fühlen sich erwachsene Schweine wohl?",
+        "18 - 24 °C", ["Zwischen -7 und +16 °C", "bei ca. 30 °C"]),
     QuizModel("Wo findet der Kugelschuss Anwendung?",
         "V.a. Rinder, die ganzjährig im Freien gehalten werden.", [
       "In kleinen Rinderschlachtbetrieben bis 5 Rinder pro Woche.",
